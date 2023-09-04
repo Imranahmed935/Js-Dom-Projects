@@ -31,3 +31,12 @@ body {
 h1 {
   color: #fff;
 }
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    text-align: center;
+  }
+  #btn {
+    width: 100%;
+  }
+}
